@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>citycollectionitem</class>
+ <widget class="QWidget" name="citycollectionitem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>170</width>
+    <height>100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lbBackImage">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>160</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbCityName">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>24</y>
+     <width>70</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbTmp">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>56</y>
+     <width>39</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbTmpUnit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>56</y>
+     <width>16</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbwea">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>72</y>
+     <width>60</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDelete">
+   <property name="geometry">
+    <rect>
+     <x>144</x>
+     <y>2</y>
+     <width>24</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAddCity">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>160</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbAddCity">
+   <property name="geometry">
+    <rect>
+     <x>64</x>
+     <y>39</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>lbBackImage</zorder>
+  <zorder>lbCityName</zorder>
+  <zorder>lbTmp</zorder>
+  <zorder>lbTmpUnit</zorder>
+  <zorder>lbwea</zorder>
+  <zorder>lbAddCity</zorder>
+  <zorder>btnAddCity</zorder>
+  <zorder>btnDelete</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>885</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget_normal" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>865</width>
+      <height>290</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="btnMinimize">
+     <property name="geometry">
+      <rect>
+       <x>797</x>
+       <y>4</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCancel">
+     <property name="geometry">
+      <rect>
+       <x>831</x>
+       <y>4</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbCurrTmp">
+     <property name="geometry">
+      <rect>
+       <x>351</x>
+       <y>85</y>
+       <width>116</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbCurrWea">
+     <property name="geometry">
+      <rect>
+       <x>484</x>
+       <y>165</y>
+       <width>100</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbCurrHum">
+     <property name="geometry">
+      <rect>
+       <x>332</x>
+       <y>202</y>
+       <width>200</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbCurrTmpUnit">
+     <property name="geometry">
+      <rect>
+       <x>481</x>
+       <y>95</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>btnMinimize</zorder>
+    <zorder>btnCancel</zorder>
+    <zorder>lbCurrTmp</zorder>
+    <zorder>lbCurrHum</zorder>
+    <zorder>lbCurrWea</zorder>
+    <zorder>lbCurrTmpUnit</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

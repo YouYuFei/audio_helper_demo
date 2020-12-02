@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cityaddition</class>
+ <widget class="QWidget" name="cityaddition">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lbLeftUpIcon">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>25</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbLeftUpTitle">
+   <property name="geometry">
+    <rect>
+     <x>54</x>
+     <y>24</y>
+     <width>68</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCancel">
+   <property name="geometry">
+    <rect>
+     <x>556</x>
+     <y>14</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="backwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>580</width>
+     <height>560</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="btnReturn">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>4</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <zorder>backwidget</zorder>
+  <zorder>lbLeftUpIcon</zorder>
+  <zorder>lbLeftUpTitle</zorder>
+  <zorder>btnCancel</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
